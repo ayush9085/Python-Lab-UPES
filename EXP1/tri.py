@@ -1,0 +1,11 @@
+# Program to find area of a triangle using Heron's Formula
+
+a = float(input("Enter first side: "))
+b = float(input("Enter second side: "))
+c = float(input("Enter third side: "))
+
+s = (a + b + c) / 2
+
+area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
+
+print("Area of the triangle:", area)
